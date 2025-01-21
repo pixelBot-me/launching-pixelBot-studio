@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import pixelIcon from '../assets/images/pixelbot-icon.svg';
+import pixelIcon from '../assets/images/pixel-icon-1.svg';
 import pixelLogo from '../assets/images/pixelbot-logo.svg';
 import Image from 'react-bootstrap/Image';
 import { Stars } from "@react-three/drei";
@@ -7,6 +7,7 @@ import { Canvas } from "@react-three/fiber";
 import { FiArrowRight } from "react-icons/fi";
 import { useMotionTemplate, useMotionValue, motion,animate} from "framer-motion";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../assets/css/header.css';
 
 
 const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
@@ -31,12 +32,12 @@ export default function Header() {
         <>
             <div className="border border-danger border-1">
                 <div className="d-flex container py-2 text-center">
-                    <Image src={pixelIcon} rounded />
-                    <span className="fs-4">
+                    <Image src={pixelIcon} rounded className="img-set-icon mr-2"/>
+                    <span>
                         <a href="/" className="text-dark fs-1 d-block">
                             Get a custom website up fast, grow your business with built-in AI marketing tools.
                         </a>
-                    </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span>
                     <motion.button
                         style={{
                             border,
@@ -48,7 +49,7 @@ export default function Header() {
                         whileTap={{
                             scale: 0.985,
                         }}
-                        className="btn btn-outline-light px-4 py-1 rounded-pill text-capitalize text-dark">
+                        className="btn btn-outline-light px-2 py-1 rounded-pill text-capitalize text-dark">
                         get in touch
                         <FiArrowRight className="ms-2" />
                     </motion.button>
@@ -64,9 +65,9 @@ export default function Header() {
                     {/* <h1 className="bg-gradient-to-br from-white to-gray-400 bg-clip-text text-3xl fw-bold text-white text-center">
                     </h1> */}
                     <Image src={pixelLogo} rounded className="w-25  pt-5"/>
-                    <p className="my-4 text-white align-content-center flex-wrap">
+                    {/* <p className="my-4 text-white align-content-center flex-wrap">
                     We are a full-service creative studio creating beautiful digital experiences and products. Our mission is to make work process meaningful.
-                    </p>
+                    </p> */}
                     
                 </div>
 
