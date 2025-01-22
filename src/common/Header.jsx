@@ -35,7 +35,7 @@ export default function Header() {
                     <Image src={pixelIcon} rounded className="img-set-icon mr-2"/>
                     <span>
                         <a href="/" className="text-dark fs-1 d-block">
-                            Get a custom website up fast, grow your business with built-in AI marketing tools.
+                        Specialized in Branding, Web Design and Motion Graphics.
                         </a>
                     </span>
                     <motion.button
