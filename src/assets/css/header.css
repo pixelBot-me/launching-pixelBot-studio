@@ -1,0 +1,26 @@
+/* set pixelbot icon on top bar */
+.img-set-icon {
+    width: 30px; /* Ensure it's a manageable size for mobile */
+    height: 30px;
+  }
+  
+/* set pixelbot icon on top bar for small devices */
+@media (max-width: 768px) {
+.img-set-icon {
+    width: 20px; /* Smaller size for very small screens */
+    height: 20px;
+}
+
+.btn {
+    font-size: 14px; /* Reduce button size for mobile */
+    padding: 0.5rem 1rem; /* Adjust padding */
+}
+
+a.text-dark {
+    font-size: 1rem; /* Adjust font size for mobile */
+}
+}
+
+.text-clr-gry{
+    color: rgba(126, 123, 123, 0.471);
+}
