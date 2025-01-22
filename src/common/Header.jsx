@@ -64,7 +64,7 @@ export default function Header() {
                 }}
                 className="d-flex flex-column justify-content-center min-vh-100 overflow-hidden text-gray-200">
                 <div className="position-relative z-10 text-center">
-                    <h1 className="bg-gradient-to-br from-white to-gray-400 bg-clip-text text-3xl fw-bold text-center display-2 text-clr-gry">
+                    <h1 className="bg-gradient-to-br from-white to-gray-400 bg-clip-text text-3xl fw-bold text-center text-clr-gry">
                         Launching Soon
                     </h1>
                     <Image src={pixelLogo} rounded className="w-25  pt-5" />
