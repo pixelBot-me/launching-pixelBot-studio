@@ -31,6 +31,7 @@ export default function Header() {
 
     return (
         <>
+            {/* top bar code starts from here  */}
             <div className="container d-flex flex-column flex-md-row justify-content-between align-items-center py-2">
                 <span className="text-center text-md-start mb-3 mb-md-0">
                     <a href="/" className="text-dark fs-5 fs-md-1 d-block">
@@ -54,14 +55,16 @@ export default function Header() {
                     <FiArrowRight className="ms-2" />
                 </motion.button>
             </div>
+            {/* top bar code end here  */}
 
+            {/* hero section starts from here */}
             <motion.section
                 style={{
                     backgroundImage,
                 }}
                 className="d-flex flex-column justify-content-center min-vh-100 overflow-hidden text-gray-200">
                 <div className="position-relative z-10 text-center">
-                    <h1 className="bg-gradient-to-br from-white to-gray-400 bg-clip-text text-3xl fw-bold text-center">
+                    <h1 className="bg-gradient-to-br from-white to-gray-400 bg-clip-text text-3xl fw-bold text-center display-2 text-clr-gry">
                         Launching Soon
                     </h1>
                     <Image src={pixelLogo} rounded className="w-25  pt-5" />
@@ -77,6 +80,7 @@ export default function Header() {
                     </Canvas>
                 </div>
             </motion.section>
+            {/* hero section end here */}
         </>
     );
 }
