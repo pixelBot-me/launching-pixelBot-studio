@@ -65,7 +65,7 @@ export default function Footer() {
               </div>
             </Col>
             <Col xl={4} lg={4} md={6} className="mb-3">
-              <div className="footer-widget">
+              <div className="footer-widget text-white">
                 <h3>Useful Links</h3>
                 <ul>
                   <li><a href="#">Home</a></li>
@@ -77,7 +77,7 @@ export default function Footer() {
               </div>
             </Col>
             <Col xl={4} lg={4} md={6} className="mb-4">
-              <div className="footer-widget">
+              <div className="footer-widget text-white">
                 <h3>Subscribe</h3>
                 <div className="footer-text mb-25">
                   <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
