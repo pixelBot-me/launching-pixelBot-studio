@@ -25,7 +25,7 @@ export default function Footer() {
                                 <FaPhone size={30} color="#ff5e14" />
                                 <div className="cta-text">
                                     <h4>Call us</h4>
-                                    <span>9876543210</span>
+                                    <span>+91 9876543210 | +91 9876543210</span>
                                 </div>
                             </div>
                         </Col>
@@ -44,87 +44,21 @@ export default function Footer() {
                 </div>
                 {/* end footer row one added call mail details */}
 
-
-                {/* strats footer row 2 details added important links */}
-                <div className="footer-content pt-5 pb-5">
-                    <Row>
-                        <Col xl={4} lg={4} className="mb-4">
-                            <div className="footer-widget">
-                                <div className="footer-logo">
-                                    <a href="index.html">
-                                        <img src={pixelBotLogo} className="img-fluid" alt="logo" />
-                                    </a>
-                                </div>
-                                <div className="footer-text">
-                                    <p>
-                                        We are a full-service creative studio creating beautiful digital experiences and products. Our mission is to make work process meaningful.
-                                    </p>
-                                </div>
-                                <div className="footer-social-icon">
-                                    <span>Follow us</span>
-                                    <a href="#"><FaFacebookF className="facebook-bg" size={16} /></a>
-                                    <a href="#"><FaTwitter className="twitter-bg" size={16} /></a>
-                                    <a href="#"><FaGooglePlusG className="google-bg" size={16} /></a>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col xl={4} lg={4} md={6} className="mb-3">
-                            <div className="footer-widget text-white">
-                                <h3>Useful Links</h3>
-                                <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Portfolio</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </div>
-                        </Col>
-                        <Col xl={4} lg={4} md={6} className="mb-4">
-                            <div className="footer-widget text-white">
-                                <h3>Subscribe</h3>
-                                <div className="footer-text mb-25">
-                                    <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
-                                </div>
-                                <div className="subscribe-form">
-                                    <Form action="#">
-                                        <Form.Control type="email" placeholder="Email Address" />
-                                        <Button variant="orange" className="subscribe-btn">
-                                            <FaTelegramPlane size={22} color="white" />
-                                        </Button>
-                                    </Form>
-                                </div>
-                            </div>
-                        </Col>
-                    </Row>
-                </div>
-                {/* end footer row 2 details added important links */}
-
-
-                {/* copyright section starts here */}
-                <div className="copyright-area">
-                    <Row>
-                        <Col xl={6} lg={6} className="text-center text-lg-left">
-                            <div className="copyright-text">
-                                <p>Copyright &copy; 2018, All Rights Reserved <a href="https://codepen.io/anupkumar92/">Anup</a></p>
-                            </div>
-                        </Col>
-                        <Col xl={6} lg={6} className="d-none d-lg-block text-right">
-                            <div className="footer-menu">
-                                <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Terms</a></li>
-                                    <li><a href="#">Privacy</a></li>
-                                    <li><a href="#">Policy</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </div>
-                        </Col>
-                    </Row>
-                </div>
-                {/* copyright section end here */}
+              
 
             </Container>
+              {/* copyright section starts here */}
+              <div className="copyright-area">
+                    {/* <Row > */}
+                        <div className="text-center">
+                            <div className="copyright-text">
+                                <p>Copyright &copy; 2018, All Rights Reserved <a href="#">PxelBot Studio</a></p>
+                            </div>
+                        </div>
+                        
+                    {/* </Row> */}
+                </div>
+                {/* copyright section end here */}
         </footer>
     );
 }
