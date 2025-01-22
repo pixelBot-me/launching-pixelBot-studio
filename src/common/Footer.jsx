@@ -77,7 +77,7 @@ export default function Footer() {
               </div>
             </Col>
             <Col xl={4} lg={4} md={6} className="mb-4">
-              <div className="footer-widget  text-white">
+              <div className="footer-widget text-white">
                 <h3>Subscribe</h3>
                 <div className="footer-text mb-25">
                   <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
