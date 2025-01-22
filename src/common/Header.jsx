@@ -9,7 +9,6 @@ import { useMotionTemplate, useMotionValue, motion, animate } from "framer-motio
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/css/header.css';
 
-
 const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
 
 export default function Header() {
