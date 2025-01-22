@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import pixelIcon from '../assets/images/pixel-icon-1.svg';
+// import pixelTopLogo from '../assets/images/pixel-top-logo.svg';
+
 import pixelLogo from '../assets/images/pixelbot-logo.svg';
 import Image from 'react-bootstrap/Image';
 import { Stars } from "@react-three/drei";
