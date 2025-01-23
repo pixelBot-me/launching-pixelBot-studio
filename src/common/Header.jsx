@@ -34,7 +34,7 @@ export default function Header() {
             {/* top bar code starts from here  */}
             <div className="sticky-top bg-white">
             <div className="container d-flex flex-column flex-md-row justify-content-center align-items-center py-2 ">
-                <span className="text-center text-md-start mb-3 mb-md-0">
+                <span className="text-center text-md-start mb-md-0">
                     <a href="/" className="text-dark fs-5 fs-md-1 d-block">
                         <Image src={pixelIcon} rounded className="img-set-icon me-2" />&nbsp;
                         Specialized in Branding, Web Design and Motion Graphics.
