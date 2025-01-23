@@ -2,20 +2,98 @@
 .img-set-icon {
     width: 30px; /* Ensure it's a manageable size for mobile */
     height: 30px;
-  }
+}
   
 /* set pixelbot icon on top bar for small devices */
 @media (max-width: 768px) {
-.btn {
-    font-size: 14px; /* Reduce button size for mobile */
-    padding: 0.5rem 1rem; /* Adjust padding */
-}
+/* .btn {
+    font-size: 14px; 
+    padding: 0.5rem 1rem; 
+} */
 
 a.text-dark {
-    font-size: 1rem; /* Adjust font size for mobile */
-}
+    /* font-size: 1rem;  */
+    /* Adjust font size for mobile */
 }
 
-.text-clr-gry{
+/* launching soon heading font size set */
+/* .position-relative h1{
+    font-size: 3rem !important;
+} */
+
+
+}
+
+/* .text-clr-gry{
     color: rgba(126, 123, 123, 0.471);
+} */
+
+/* .position-relative h1{
+    font-size: 5rem;
+    color: aliceblue;
+} */
+
+/* Header styles */
+.position-relative h1 {
+    font-size: 9rem;  /* Default font size for large screens */
+    color: aliceblue;
+    background: linear-gradient(45deg, #f58989, white, #28c0d2, #7be05f);
+    background-size: 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradient 10s ease infinite;
+    line-height: 1.5;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Adding a 3D effect using text shadow */
+.position-relative h1::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: inherit; /* Inherit the gradient background */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), 4px 4px 10px rgba(0, 0, 0, 0.15);
+    transform: translate3d(3px, 3px, 0);
+    z-index: -1;
+}
+
+/* Keyframes for animating gradient color */
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position:  50% 100%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+    .position-relative h1 {
+        font-size: 3rem;  /* Smaller font size for mobile */
+    }
+
+    .position-relative .w-25 {
+        width: 50%;  /* Adjust logo size on mobile */
+    }
+
+    .container {
+        padding: 10px;  /* Add padding for better mobile spacing */
+    }
+}
+
+
+.top-bar{
+    background-color: #182444;
 }
