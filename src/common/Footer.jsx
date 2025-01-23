@@ -28,8 +28,8 @@ export default function Footer() {
                                 <div className="cta-text">
                                     <h4>Call us</h4>
                                     <span>
-                                        <a href="tel:+918308606183">+91 9876543210</a> &nbsp; | &nbsp;
-                                        <a href="tel:+918308606183">+91 9876543210</a>
+                                        <a href="tel:+918623087995">+91 8623087995</a> &nbsp; | &nbsp;
+                                        <a href="tel:+918446297665">+91 8446297665</a>
                                     </span>
                                 </div>
                             </div>
