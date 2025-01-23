@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import pixelIcon from '../assets/images/pixel-icon-1.svg';
 // import pixelTopLogo from '../assets/images/pixel-top-logo.svg';
-
 import pixelLogo from '../assets/images/pixelbot-logo.svg';
 import Image from 'react-bootstrap/Image';
 import { Stars } from "@react-three/drei";
@@ -33,17 +32,15 @@ export default function Header() {
         <>
             {/* top bar code starts from here  */}
             <div className="sticky-top bg-white">
-            <div className="container d-flex flex-column flex-md-row justify-content-center align-items-center py-2 ">
-                <span className="text-center text-md-start mb-md-0">
-                    <a href="/" className="text-dark fs-5 fs-md-1 d-block">
-                        <Image src={pixelIcon} rounded className="img-set-icon me-2" />&nbsp;
-                        Specialized in Branding, Web Design and Motion Graphics.
-                    </a>
-                </span>
+                <div className="container d-flex flex-column flex-md-row justify-content-center align-items-center py-2 ">
+                    <span className="text-center text-md-start mb-md-0">
+                        <a href="/" className="text-dark fs-5 fs-md-1 d-block">
+                            <Image src={pixelIcon} rounded className="img-set-icon me-2" />&nbsp;
+                            Specialized in Branding, Web Design and Motion Graphics.
+                        </a>
+                    </span>
+                </div>
             </div>
-
-            </div>
-            
             {/* top bar code end here  */}
 
             {/* hero section starts from here */}
@@ -57,11 +54,7 @@ export default function Header() {
                     <h1 className="bg-gradient-to-br from-white to-gray-400 bg-clip-text text-3xl fw-bold text-center text-clr-gry pt-5">
                         Launching Soon
                     </h1>
-                    {/* <p className="my-4 text-white align-content-center flex-wrap">
-                    We are a full-service creative studio creating beautiful digital experiences and products. Our mission is to make work process meaningful.
-                    </p> */}
                 </div>
-
                 <div
                     className="position-absolute top-0 start-0 end-0 bottom-0 w-100 h-100">
                     <Canvas>
