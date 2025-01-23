@@ -32,7 +32,8 @@ export default function Header() {
     return (
         <>
             {/* top bar code starts from here  */}
-            <div className="container d-flex flex-column flex-md-row justify-content-center align-items-center py-2">
+            <div className="sticky-top bg-white">
+            <div className="container d-flex flex-column flex-md-row justify-content-center align-items-center py-2 ">
                 <span className="text-center text-md-start mb-3 mb-md-0">
                     <a href="/" className="text-dark fs-5 fs-md-1 d-block">
                         <Image src={pixelIcon} rounded className="img-set-icon me-2" />&nbsp;
@@ -40,6 +41,9 @@ export default function Header() {
                     </a>
                 </span>
             </div>
+
+            </div>
+            
             {/* top bar code end here  */}
 
             {/* hero section starts from here */}

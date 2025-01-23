@@ -20,7 +20,7 @@ ul {
   /* margin-bottom: 2px; */
 }
 .cta-text span, .cta-text a {
-  color: #757575;
+  color: rgba(255, 255, 255, 0.867);
   font-size: 15px;
 }
 .footer-content {
