@@ -16,19 +16,8 @@ export default function Footer() {
                                 <FaMapMarkerAlt size={30} color="#f8a22d" />
                                 <div className="cta-text">
                                     <h4>Find us</h4>
-                                    {/* <span><a href="https://maps.app.goo.gl/XAWMdRsqAgvCCv4fA">Padole square, opposite MH31 restaurant, 3rd Bus Stop, Gopal Nagar, Nagpur, Maharashtra 440022</a></span> */}
                                     <a href="https://maps.app.goo.gl/XAWMdRsqAgvCCv4fA" target='_blank'>
                                     Gopal Nagar, Nagpur, Maharashtra 440022</a>
-                                    {/* <iframe 
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.9328010314116!2d79.049081!3d21.1152451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4bf67a3c83c3f%3A0x941f78d5b18e8b23!2sPixelBot%20Studio!5e0!3m2!1sen!2sin!4v1737614031987!5m2!1sen!2sin" className='pt-2'
-                                        width="100%" 
-                                        height="100" 
-                                        style={{ border: 0 }} 
-                                        allowFullScreen="" 
-                                        loading="lazy" 
-                                        referrerPolicy="no-referrer-when-downgrade"
-                                        title="PixelBot Studio Map"
-                                    ></iframe> */}
                                 </div>
                             </div>
 
@@ -59,8 +48,6 @@ export default function Footer() {
                     </Row>
                 </div>
                 {/* end footer row one added call mail details */}
-
-
 
             </Container>
             {/* copyright section starts here */}
