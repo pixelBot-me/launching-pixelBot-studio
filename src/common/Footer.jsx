@@ -46,9 +46,9 @@ export default function Footer() {
                         </Col>                     
                     </Row>
                 </div>
-                {/* end footer row one added call mail details */}
-
             </Container>
+            {/* end footer row one added call mail details */}
+
             {/* copyright section starts here */}
             {/* <div className="copyright-area">
                 <div className="copyright-text text-center">
