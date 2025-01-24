@@ -1,11 +1,9 @@
 import React, { useEffect } from "react";
-import pixelIcon from '../assets/images/pixel-icon-1.svg';
-// import pixelTopLogo from '../assets/images/pixel-top-logo.svg';
-import pixelLogo from '../assets/images/pixelbot-logo.svg';
+import pixelIcon from '../assets/images/PixelBot_Icon_Yellow.svg';
+import pixelLogo from '../assets/images/PixelBot_Logo_White.svg';
 import Image from 'react-bootstrap/Image';
 import { Stars } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import { FiArrowRight } from "react-icons/fi";
 import { useMotionTemplate, useMotionValue, motion, animate } from "framer-motion";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/css/header.css';
@@ -31,7 +29,7 @@ export default function Header() {
     return (
         <>
             {/* top bar code starts from here  */}
-            <div className="sticky-top bg-white">
+            <div className="sticky-top top-bg">
                 <div className="container d-flex flex-column flex-md-row justify-content-center align-items-center py-2 ">
                     <span className="text-center text-md-start mb-md-0">
                         <a href="/" className="text-dark fs-5 fs-md-1 d-block">
