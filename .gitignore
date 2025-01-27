@@ -7,8 +7,9 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
+node_modules/
+dist/
+.DS_Store
 dist-ssr
 *.local
 
@@ -23,3 +24,10 @@ dist-ssr
 *.sln
 *.sw?
 .env
+
+README.md
+eslint.config.js
+package-lock.json
+package.json
+vite.config.js
+
